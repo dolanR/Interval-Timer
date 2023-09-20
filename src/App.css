@@ -1,0 +1,57 @@
+.flex {
+    display: flex;
+}
+
+#labelContainer {
+    gap: 45px;
+}
+
+#break-label, #session-label {
+    flex-direction: column;
+    gap: 5px;
+}
+
+#break-controller, #session-controller {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+button {
+    appearance: auto;
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+#timer-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-radius: 20px;
+    outline: 5px solid rgb(21, 29, 29);
+    width: 250px;
+}
+
+#time-left {
+    font-size: 50px;
+}
+
+#timer-controller {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+p {
+    font-size: 25px;
+}
